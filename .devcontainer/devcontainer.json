@@ -1,6 +1,6 @@
 {
   "name": "GPU LLM Container",
-  "image": "nvidia/cuda:12.6.0-base-ubuntu24.04",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
   "customizations": {
     "vscode": {
       "settings": {

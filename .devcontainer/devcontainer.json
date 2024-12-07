@@ -1,6 +1,12 @@
 {
   "name": "GPU LLM Container",
-  "image": "nvidia/cuda:12.6.0-base-ubuntu24.04",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+        "VARIANT": "3.8",
+        "INSTALL_NODE": "false"
+    }
+  },
   "customizations": {
     "vscode": {
       "settings": {
@@ -23,5 +29,5 @@
       ]
     }
   },
-  "postCreateCommand": "/bin/pip install -r requirements.txt"
+  "postCreateCommand": "pip3 install torch transformers"
 }

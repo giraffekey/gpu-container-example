@@ -4,7 +4,7 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "python.defaultInterpreterPath": "/workspace/bin/python",
+        "python.defaultInterpreterPath": "/bin/python",
         "python.linting.enabled": true,
         "python.linting.pylintEnabled": true,
         "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
@@ -23,5 +23,5 @@
       ]
     }
   },
-  "postCreateCommand": "/workspace/bin/pip install -r requirements.txt"
+  "postCreateCommand": "/bin/pip install -r requirements.txt"
 }

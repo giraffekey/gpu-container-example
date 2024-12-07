@@ -16,6 +16,11 @@ Setup development environment:
 daytona create https://github.com/giraffekey/gpu-container-example
 ```
 
+Open workspace:
+```bash
+daytona code
+```
+
 Download the model:
 ```bash
 python3 download.py

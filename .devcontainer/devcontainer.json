@@ -23,5 +23,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip3 install torch transformers"
+  "postCreateCommand": "pip3 install -r requirements.txt"
 }

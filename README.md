@@ -5,10 +5,16 @@ An example of running LLMs in GPU-accelerated containerized environments.
 ## Prerequisites
 
 - A machine with a CUDA-compatible GPU (e.g., NVIDIA GPUs)
+- Daytona
 - Docker
 - NVIDIA Container Toolkit
 
 ## Steps
+
+Setup development environment:
+```bash
+daytona create https://github.com/giraffekey/gpu-container-example
+```
 
 Download the model:
 ```bash
